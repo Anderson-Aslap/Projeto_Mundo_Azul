@@ -15,6 +15,7 @@
       <h2>Cadrastro de Responsavel</h2><br/>
       <form method="post" action="{{url('responsibles')}}" enctype="multipart/form-data">
         @csrf
+        
         <div class="row">
           <div class="col-md-4"></div>
           <div class="form-group col-md-4">
@@ -22,6 +23,8 @@
             <input type="text" class="form-control" name="name">
           </div>
         </div>
+        </div>
+        
         <div class="row">
           <div class="col-md-4"></div>
             <div class="form-group col-md-4">
@@ -31,6 +34,7 @@
           </div>
            </div>
         </div>
+        
         <div class="row">
           <div class="col-md-4"></div>
             <div class="form-group col-md-4">
@@ -38,6 +42,7 @@
               <input type="text" class="form-control" name="email">
             </div>
           </div>
+        
         <div class="row">
           <div class="col-md-4"></div>
             <div class="form-group col-md-4">
@@ -79,7 +84,7 @@
         <div class="row">
           <div class="col-md-4"></div>
           <div class="form-group col-md-4" style="margin-top:60px">
-            <button type="submit" class="btn btn-success">Enviar Cadrastro</button>
+            <button type="submit" class="btn btn-primary"> Cadrastrar</button>
           </div>
         </div>
       </form>
