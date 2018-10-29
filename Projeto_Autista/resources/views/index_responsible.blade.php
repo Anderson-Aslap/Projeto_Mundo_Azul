@@ -27,7 +27,6 @@
         <th>Nome</th>
         <th>CPF</th>
         <th>Email</th>
-        <th>Senha</th>
         <th>Rua</th>
         <th>Numero</th>
         <th>Bairro</th>
@@ -46,7 +45,6 @@
         <td>{{$responsible['name']}}</td>
         <td>{{$responsible['cpf']}}</td>
         <td>{{$responsible['email']}}</td>
-        <td>{{$responsible['password']}}</td>
         <td>{{$responsible['street']}}</td>
         <td>{{$responsible['number']}}</td>
         <td>{{$responsible['bairro']}}</td>

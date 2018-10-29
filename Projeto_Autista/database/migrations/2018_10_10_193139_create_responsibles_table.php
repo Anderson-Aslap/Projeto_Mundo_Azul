@@ -21,8 +21,8 @@ class CreateResponsiblesTable extends Migration
             $table->string('password');
             $table->string('street');
             $table->integer('number'); 
-            $table->integer('bairro');
-            $table->string('city');   
+            $table->string('bairro');
+            $table->String('city');   
             $table->timestamps();
         });
     }

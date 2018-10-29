@@ -16,20 +16,21 @@
       <form method="post" action="{{url('responsibles')}}" enctype="multipart/form-data">
         @csrf
         
+        </div>
         <div class="row">
           <div class="col-md-4"></div>
           <div class="form-group col-md-4">
             <label for="Name">Name:</label>
-            <input type="text" class="form-control" name="name">
-          </div>
+            <input type="text" class="form-control" name="name" required="">
         </div>
+
         </div>
         
         <div class="row">
           <div class="col-md-4"></div>
             <div class="form-group col-md-4">
               <label for="CPF">CPF:</label>
-              <input type="text" class="form-control" name="cpf">
+              <input type="text" class="form-control" name="cpf" required="">
             </div>
           </div>
            </div>
@@ -39,7 +40,7 @@
           <div class="col-md-4"></div>
             <div class="form-group col-md-4">
               <label for="Email">Email:</label>
-              <input type="text" class="form-control" name="email">
+              <input type="text" class="form-control" name="email" required="">
             </div>
           </div>
         
@@ -47,14 +48,14 @@
           <div class="col-md-4"></div>
             <div class="form-group col-md-4">
               <label for="Password">Senha:</label>
-              <input type="text" class="form-control" name="password">
+              <input type="password" class="form-control" name="password" required="">
             </div>
           </div>
            <div class="row">
           <div class="col-md-4"></div>
             <div class="form-group col-md-4">
               <label for="Rua">Rua:</label>
-              <input type="text" class="form-control" name="street">
+              <input type="text" class="form-control" name="street" required="">
             </div>
           </div>
            </div>
@@ -63,21 +64,21 @@
           <div class="col-md-4"></div>
             <div class="form-group col-md-4">
               <label for="Number">Numero:</label>
-              <input type="text" class="form-control" name="number">
+              <input type="number" class="form-control" name="number" required="">
             </div>
         </div>
           <div class="row">
           <div class="col-md-4"></div>
             <div class="form-group col-md-4">
               <label for="Bairro">Bairro:</label>
-              <input type="number" class="form-control" name="bairro">
+              <input type="text" class="form-control" name="bairro" required="">
             </div>
           </div>
         <div class="row">
           <div class="col-md-4"></div>
             <div class="form-group col-md-4">
               <label for="City">Cidade:</label>
-              <input type="text" class="form-control" name="city">
+              <input type="text" class="form-control" name="city" required="">
             </div>
           </div>
 
